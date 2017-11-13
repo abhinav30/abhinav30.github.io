@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<title>IRE MAJOR PROJECT</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="fonts.css">
+<style>
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: url('im1.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+</style>
+<body>
+
+<div class="bgimg w3-display-container w3-pale-blue">
+  <div class="w3-display-middle w3-jumbo">
+    <p>BOOKS RECOMMENDATION SYSTEM</p>
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('intro').style.display='block'" class="w3-button w3-teal">Introduction</button></p>
+    <p><button onclick="document.getElementById('code').style.display='block'" class="w3-button w3-teal">Source Code</button></p>
+    <p><button onclick="document.getElementById('video').style.display='block'" class="w3-button w3-teal">Video</button></p>
+    <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-teal">Team Members</button></p>
+  </div>
+</div>
+
+<!-- Introduction Modal -->
+<div id="intro" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('intro').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Introduction</h1>
+    </div>
+    <div class="w3-container">
+    <p>The aim of the project is to recommend books by determining degree of similarity between pairs of books. Given a book, the task is to find a book and classify the pair in one of the three classes:
+        <br>Class 1: If the given pair is highly similar.
+        <br>Class 0: If the given pair is moderately similar.
+        <br>Class -1: If the given pair is not similar at all.</p>
+    </div>
+    
+    
+  </div>
+</div>
+
+<!-- Source Code Modal -->
+<div id="code" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('code').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Source Code</h1>
+    </div>
+   <div class="w3-container">
+   		<h5>GitHub Link:</h5>
+   		<a href="https://github.com/hemantkasat/Book-Recommendation-Project" >Visit github page</a>
+   </div>
+  </div>
+</div>
+
+<!-- Source Code Modal -->
+<div id="video" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('video').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Video</h1>
+    </div>
+    <h5>Video:</h5>
+   <div class="w3-container">
+   		<video width="500" controls>
+  <source src="song.webm" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+   </div>
+  </div>
+</div>
+
+<!-- Contact Modal -->
+<div id="contact" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Team Members</h1>
+    </div>
+   <div class="w3-container">
+   		<h5>Hemant Kasat  (201402215)</h5>
+        <h5>Rishabh Arora (201501010)</h5>
+        <h5>Abhinav Gupta (20162015)</h5>
+   </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+
